@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: system-ui, -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
 }
 
 img {
@@ -56,8 +58,8 @@ img {
 }
 
 .photo-card {
-  /* flex-basis: calc((100% - 15px * 8) / 4); */
-  width: calc(100% / 4 - 30px);
+  flex-basis: calc((100% - 15px * 8) / 4);
+
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
   margin: 0 15px 15px;
 }
@@ -72,7 +74,4 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  font-family: system-ui, -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-    'Helvetica Neue', sans-serif;
 }
